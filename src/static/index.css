@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Bloomfield-Rg';
+    src: url("https://images.jet.com/fonts/jetont/Bloomfield_W_Rg.eot?#iefix") format("embedded-opentype"), url("https://images.jet.com/fonts/jetont/Bloomfield_W_Rg.woff") format("woff"), url("https://images.jet.com/fonts/jetont/Bloomfield_W_Rg.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bloomfield-Bd';
+    src: url("https://images.jet.com/fonts/jetont/Bloomfield_W_Bd.eot?#iefix") format("embedded-opentype"), url("https://images.jet.com/fonts/jetont/Bloomfield_W_Bd.woff") format("woff"), url("https://images.jet.com/fonts/jetont/Bloomfield_W_Bd.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body, #root {
+    margin: 0;
+    height: 100%;
+    background-color: #b566ff;
+}
+
+.drag-bar {
+    -webkit-app-region:drag;
+    height:36px;
+}
+
+.convert-button {
+    background-color: #8800fe;
+    color: #FFF;
+    border-radius: 4px;
+    padding: 8px;
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
+    font-family: "Bloomfield-Bd", sans-serif;
+}
+
+.type-space {
+    display: block;
+    resize: none;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    flex: 1;
+    border: none;
+    font-family: 'Bloomfield-Rg', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.outer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
